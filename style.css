@@ -1,0 +1,43 @@
+html {
+  background-image: linear-gradient(to bottom right, #301934, rgb(0, 0, 41));
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.container {
+  width: 80vw;
+  margin: 6vh auto 1vh auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    "dashboard reviews avg-rating sentiment-analysis"
+    "dashboard website-visitors website-visitors website-visitors"
+    "dashboard website-visitors website-visitors website-visitors";
+}
+.dashboard {
+  background-color: #46454671;
+  padding: 7vh 0 1vh 3vw;
+  grid-area: dashboard;
+}
+.reviews {
+  background-color: #522a59;
+  padding: 1vh 0 1vh 3vw;
+  grid-area: reviews;
+}
+.avg-rating {
+  background-color: #522a59;
+  padding: 1vh 0 1vh 3vw;
+  grid-area: avg-rating;
+}
+.sentiment-analysis {
+  background-color: #522a59;
+  padding: 1vh 0 1vh 3vw;
+  grid-area: sentiment-analysis;
+}
+.website-visitors {
+  background-color: #522a59;
+  padding: 3vh 0 1vh 2vw;
+  grid-area: website-visitors;
+}

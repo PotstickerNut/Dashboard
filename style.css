@@ -2,6 +2,7 @@ html {
   background-image: linear-gradient(to bottom right, #301934, rgb(0, 0, 41));
   background-attachment: fixed;
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -22,22 +23,33 @@ html {
   grid-area: dashboard;
 }
 .reviews {
-  background-color: #522a59;
+  background-color: #46454671;
   padding: 1vh 0 1vh 3vw;
   grid-area: reviews;
 }
 .avg-rating {
-  background-color: #522a59;
+  background-color: #46454671;
   padding: 1vh 0 1vh 3vw;
   grid-area: avg-rating;
 }
 .sentiment-analysis {
-  background-color: #522a59;
+  background-color: #46454671;
   padding: 1vh 0 1vh 3vw;
   grid-area: sentiment-analysis;
 }
 .website-visitors {
-  background-color: #522a59;
+  background-color: #46454671;
   padding: 3vh 0 1vh 2vw;
   grid-area: website-visitors;
+}
+
+.widgets {
+  width: 2vh;
+  margin-right: 0.5vw;
+}
+
+.menu {
+  height: 2vh;
+  float: right;
+  padding-right: 2vw;
 }

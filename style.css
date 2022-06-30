@@ -53,3 +53,9 @@ html {
   float: right;
   padding-right: 2vw;
 }
+
+.graph {
+  background-color: #30193489;
+  width: 55vw;
+  height: 30vh;
+}
